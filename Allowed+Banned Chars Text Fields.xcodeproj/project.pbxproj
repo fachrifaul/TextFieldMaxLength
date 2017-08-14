@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D441715D1CF49FE7004337EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D441715C1CF49FE7004337EB /* AppDelegate.swift */; };
+		D441715F1CF49FE7004337EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D441715E1CF49FE7004337EB /* ViewController.swift */; };
+		D44171621CF49FE7004337EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44171601CF49FE7004337EB /* Main.storyboard */; };
+		D44171641CF49FE7004337EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44171631CF49FE7004337EB /* Assets.xcassets */; };
+		D44171671CF49FE7004337EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44171651CF49FE7004337EB /* LaunchScreen.storyboard */; };
+		D441716F1CF4A001004337EB /* AllowedCharsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D441716E1CF4A001004337EB /* AllowedCharsTextField.swift */; };
+		D44171711CF4A00D004337EB /* BannedCharsTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44171701CF4A00D004337EB /* BannedCharsTextField.swift */; };
+		D44171731CF4A017004337EB /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44171721CF4A017004337EB /* TextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D44171591CF49FE7004337EB /* Allowed+Banned Chars Text Fields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Allowed+Banned Chars Text Fields.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D441715C1CF49FE7004337EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D441715E1CF49FE7004337EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D44171611CF49FE7004337EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D44171631CF49FE7004337EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D44171661CF49FE7004337EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D44171681CF49FE7004337EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D441716E1CF4A001004337EB /* AllowedCharsTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllowedCharsTextField.swift; sourceTree = "<group>"; };
+		D44171701CF4A00D004337EB /* BannedCharsTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BannedCharsTextField.swift; sourceTree = "<group>"; };
+		D44171721CF4A017004337EB /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D44171561CF49FE7004337EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D44171501CF49FE7004337EB = {
+			isa = PBXGroup;
+			children = (
+				D441715B1CF49FE7004337EB /* Allowed+Banned Chars Text Fields */,
+				D441715A1CF49FE7004337EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D441715A1CF49FE7004337EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D44171591CF49FE7004337EB /* Allowed+Banned Chars Text Fields.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D441715B1CF49FE7004337EB /* Allowed+Banned Chars Text Fields */ = {
+			isa = PBXGroup;
+			children = (
+				D441715C1CF49FE7004337EB /* AppDelegate.swift */,
+				D441715E1CF49FE7004337EB /* ViewController.swift */,
+				D441716E1CF4A001004337EB /* AllowedCharsTextField.swift */,
+				D44171701CF4A00D004337EB /* BannedCharsTextField.swift */,
+				D44171721CF4A017004337EB /* TextField.swift */,
+				D44171601CF49FE7004337EB /* Main.storyboard */,
+				D44171631CF49FE7004337EB /* Assets.xcassets */,
+				D44171651CF49FE7004337EB /* LaunchScreen.storyboard */,
+				D44171681CF49FE7004337EB /* Info.plist */,
+			);
+			path = "Allowed+Banned Chars Text Fields";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D44171581CF49FE7004337EB /* Allowed+Banned Chars Text Fields */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D441716B1CF49FE7004337EB /* Build configuration list for PBXNativeTarget "Allowed+Banned Chars Text Fields" */;
+			buildPhases = (
+				D44171551CF49FE7004337EB /* Sources */,
+				D44171561CF49FE7004337EB /* Frameworks */,
+				D44171571CF49FE7004337EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Allowed+Banned Chars Text Fields";
+			productName = "Allowed+Banned Chars Text Fields";
+			productReference = D44171591CF49FE7004337EB /* Allowed+Banned Chars Text Fields.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D44171511CF49FE7004337EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joey deVilla";
+				TargetAttributes = {
+					D44171581CF49FE7004337EB = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = D44171541CF49FE7004337EB /* Build configuration list for PBXProject "Allowed+Banned Chars Text Fields" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D44171501CF49FE7004337EB;
+			productRefGroup = D441715A1CF49FE7004337EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D44171581CF49FE7004337EB /* Allowed+Banned Chars Text Fields */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D44171571CF49FE7004337EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44171671CF49FE7004337EB /* LaunchScreen.storyboard in Resources */,
+				D44171641CF49FE7004337EB /* Assets.xcassets in Resources */,
+				D44171621CF49FE7004337EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D44171551CF49FE7004337EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D441716F1CF4A001004337EB /* AllowedCharsTextField.swift in Sources */,
+				D441715F1CF49FE7004337EB /* ViewController.swift in Sources */,
+				D441715D1CF49FE7004337EB /* AppDelegate.swift in Sources */,
+				D44171731CF4A017004337EB /* TextField.swift in Sources */,
+				D44171711CF4A00D004337EB /* BannedCharsTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D44171601CF49FE7004337EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44171611CF49FE7004337EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D44171651CF49FE7004337EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44171661CF49FE7004337EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D44171691CF49FE7004337EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D441716A1CF49FE7004337EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D441716C1CF49FE7004337EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Allowed+Banned Chars Text Fields/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "globalnerdy.com.Allowed-Banned-Chars-Text-Fields";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D441716D1CF49FE7004337EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Allowed+Banned Chars Text Fields/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "globalnerdy.com.Allowed-Banned-Chars-Text-Fields";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D44171541CF49FE7004337EB /* Build configuration list for PBXProject "Allowed+Banned Chars Text Fields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44171691CF49FE7004337EB /* Debug */,
+				D441716A1CF49FE7004337EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D441716B1CF49FE7004337EB /* Build configuration list for PBXNativeTarget "Allowed+Banned Chars Text Fields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D441716C1CF49FE7004337EB /* Debug */,
+				D441716D1CF49FE7004337EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D44171511CF49FE7004337EB /* Project object */;
+}
